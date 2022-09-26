@@ -5,4 +5,5 @@
     productPrice = 100;
     console.log('productPrice: ', productPrice)
 
+    //Explicit form
 })()
