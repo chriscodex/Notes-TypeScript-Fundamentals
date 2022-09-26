@@ -6,4 +6,6 @@
     console.log('productPrice: ', productPrice)
 
     //Explicit form
+    let costumerAge = 100;
+    
 })()
