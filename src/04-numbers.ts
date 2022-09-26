@@ -8,5 +8,5 @@
     //Explicit form
     let costumerAge = 100;
     costumerAge += 1;
-    
+    console.log(costumerAge)
 })()
