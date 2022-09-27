@@ -10,7 +10,7 @@
     costumerAge += 1;
     console.log(costumerAge)
 
- 
+    // Error to show how typescript is very useful to detec possible mistakes
     let productInStock: number;
     console.log(productInStock);
     if (productInStock > 0) {
