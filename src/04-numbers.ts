@@ -31,5 +31,6 @@
     // Transform to decimal
     // They are numbers
     let hex = 0xfff;
-    console.log(hex)
+    console.log(hex);
+    let bin = 0b0111;
 })()
