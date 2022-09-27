@@ -27,4 +27,9 @@
     } else {
         console.log('not apply')
     }
+
+    // Transform to decimal
+    // They are numbers
+    let hex = 0xfff;
+    console.log(hex)
 })()
