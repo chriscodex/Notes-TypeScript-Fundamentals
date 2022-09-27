@@ -32,5 +32,6 @@
     // They are numbers
     let hex = 0xfff;
     console.log(hex);
-    let bin = 0b0111;
+    let bin = 0b01010;
+    console.log(bin)
 })()
