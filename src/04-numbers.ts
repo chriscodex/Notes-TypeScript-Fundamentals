@@ -10,6 +10,12 @@
     costumerAge += 1;
     console.log(costumerAge)
 
+ 
     let productInStock: number;
-    
+    console.log(productInStock);
+    if (productInStock > 0) {
+        console.log('In stock')
+    } else {
+        console.log('out of stock')
+    }
 })()
