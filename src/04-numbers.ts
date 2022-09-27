@@ -34,4 +34,9 @@
     console.log(hex);
     let bin = 0b01010;
     console.log(bin)
+
+    // number Capital Letter
+    // Dont use it
+    let variable: Number = 100;
+    console.log(variable)
 })()
