@@ -18,4 +18,8 @@
     } else {
         console.log('out of stock')
     }
+
+    // Parse
+    let discount = parseInt('123');
+    
 })()
