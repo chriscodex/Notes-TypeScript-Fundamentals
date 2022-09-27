@@ -19,7 +19,12 @@
         console.log('out of stock')
     }
 
-    // Parse
-    let discount = parseInt('123');
-    
+    // Parse error
+    let discount = parseInt('asd');
+    console.log(discount)
+    if (discount < 100) {
+        console.log('apply')
+    } else {
+        console.log('not apply')
+    }
 })()
