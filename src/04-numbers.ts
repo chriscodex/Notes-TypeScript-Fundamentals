@@ -9,4 +9,7 @@
     let costumerAge:number = 100;
     costumerAge += 1;
     console.log(costumerAge)
+
+    let productInStock: number;
+    
 })()
