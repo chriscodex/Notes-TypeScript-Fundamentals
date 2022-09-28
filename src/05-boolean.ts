@@ -11,4 +11,7 @@
     console.log(random);
     isNew = random > 0.3 ? true: false;
     console.log(isNew);
+
+    // Dont do
+    const myBoolC : Boolean = true;
 })()
