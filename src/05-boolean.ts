@@ -4,5 +4,5 @@
 
     // Explicit form
     let isNew : boolean = true;
-    
+    console.log(isNew)
 })()
