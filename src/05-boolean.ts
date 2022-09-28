@@ -6,7 +6,7 @@
     let isNew : boolean = true;
     console.log(isNew)
 
-    //
+    // Example
     const random = Math.random();
     console.log(random);
     isNew = random > 0.3 ? true: false;
