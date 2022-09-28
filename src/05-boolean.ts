@@ -9,5 +9,6 @@
     //
     const random = Math.random();
     console.log(random);
-
+    isNew = random > 0.3;
+    console.log(isNew);
 })()
