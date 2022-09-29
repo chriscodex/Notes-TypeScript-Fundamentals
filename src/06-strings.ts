@@ -17,11 +17,15 @@
     console.log(productTitle)
 
     // Concat lines
-    var price: number = 100
+    let price: number = 100
     const summary = `
         title: ${productTitle}
         description: ${productDescription}
         price: ${price}
     `
     console.log(summary)
+
+    // Dont do it
+    // Capital Lletter
+    let str : String = 'foo'
 })()
