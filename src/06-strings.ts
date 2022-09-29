@@ -7,10 +7,21 @@
     // productTitle = 123
 
     // single cuote
-    productTitle = 'product changed';
-    console.log(productTitle)
+    var productDescription: string
+    productDescription = 'product changed';
+    console.log(productDescription)
 
     // double cuote
-    productTitle = "product changed again";
+    // mostly used if i use '
+    productTitle = "It's my product";
     console.log(productTitle)
+
+    // Concat lines
+    var price: number = 100
+    const summary = `
+        title: ${productTitle}
+        description: ${productDescription}
+        price: ${price}
+    `
+    console.log(summary)
 })()
