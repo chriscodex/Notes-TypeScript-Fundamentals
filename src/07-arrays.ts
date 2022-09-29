@@ -6,5 +6,8 @@
     // arr.push(true)
 
     // Explicit way
-    let elements : (number | string)[] = ['hello', 121]
+    let elements : (number | string | boolean | Object)[] = ['hello', 121]
+    // Can't be inserted
+    //elements.push({});
+
 })();
