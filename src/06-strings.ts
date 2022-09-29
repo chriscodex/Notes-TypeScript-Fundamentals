@@ -5,4 +5,5 @@
     // productTitle = null;
     // productTitle = ()=>{};
     // productTitle = 123
+    productTitle = 'product changed';
 })()
