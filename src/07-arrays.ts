@@ -7,7 +7,7 @@
 
     // Explicit way
     let elements : (number | string | boolean | Object)[] = ['hello', 121]
-    // Can't be inserted
-    //elements.push({});
+    elements.push({});
+    elements.push([]);
 
 })();
