@@ -7,6 +7,7 @@
 
     // Explicit way
     let elements : (number | string | boolean | Object)[] = ['hello', 121]
+    elements.push('hello friends');
     elements.push(11);
     elements.push({});
     elements.push([]);
