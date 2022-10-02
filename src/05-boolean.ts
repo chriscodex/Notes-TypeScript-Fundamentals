@@ -1,5 +1,5 @@
 (()=>{
-    // Inflicted by ts
+    // Deducted by ts
     let isEnable = true;
 
     // Explicit form
