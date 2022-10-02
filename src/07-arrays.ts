@@ -14,4 +14,6 @@
     elements.push([]);
 
     // ts deducted array methods
+    let numbers = [11,23,33]
+    numbers.map(item => item *2)
 })();
