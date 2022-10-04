@@ -12,4 +12,6 @@
             console.log(myText.toFixed(1))
         }
     }
+
+    greeting('hello');
 })();
