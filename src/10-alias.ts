@@ -27,5 +27,7 @@
             console.log(`string ${userId.toLowerCase()}`)
         }
     }
+
+    // ts suggesting using literal types
     greeting(1111, 'S');
 })()
