@@ -7,4 +7,7 @@
     // Casting any
     myDinamicVar = 'Hola';
     const rta = (myDinamicVar as string).toLowerCase();
+
+    // Other way
+    const rta2 = (<number>myDinamicVar).toFixed();
 })()
