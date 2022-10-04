@@ -27,5 +27,5 @@
             console.log(`string ${userId.toLowerCase()}`)
         }
     }
-    
+    greeting(1111, 'S');
 })()
