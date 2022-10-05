@@ -8,4 +8,6 @@
             console.log(`string ${userId}`)
         }
     }
+
+    foo('111')
 })()
