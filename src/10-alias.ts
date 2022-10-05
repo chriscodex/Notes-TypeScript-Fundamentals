@@ -10,4 +10,7 @@
     }
 
     foo('111')
+
+    // Literal types
+    type Sizes = 'S' | 'M' | 'L' | 'XL'
 })()
