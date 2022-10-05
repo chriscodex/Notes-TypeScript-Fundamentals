@@ -14,9 +14,12 @@
     // Literal types
     type Sizes = 'S' | 'M' | 'L' | 'XL';
     let shirtSize: Sizes;
-    shirtSize = 'L';
+    shirtSize = 'S';
     shirtSize = 'M';
     shirtSize = 'L';
     shirtSize = 'XL';
+    // It needs to be the same
+    // Can't be like
+    // shirtSize = 's
 
 })()
