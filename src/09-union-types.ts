@@ -14,4 +14,5 @@
     }
 
     greeting('hello');
+    greeting(12.32323);
 })();
