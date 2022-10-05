@@ -14,4 +14,9 @@
     // Literal types
     type Sizes = 'S' | 'M' | 'L' | 'XL';
     let shirtSize: Sizes;
+    shirtSize = 'L';
+    shirtSize = 'M';
+    shirtSize = 'L';
+    shirtSize = 'XL';
+
 })()
