@@ -21,5 +21,8 @@
     // It needs to be the same
     // Can't be like
     // shirtSize = 's
+    
+    function greeting (userId: UserID, size: Sizes) {
 
+    }
 })()
