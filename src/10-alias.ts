@@ -23,6 +23,9 @@
     // shirtSize = 's
     
     function greeting (userId: UserID, size: Sizes) {
-
+        if (typeof userId === 'string') {
+            console.log(`string ${userId.toLowerCase()}`)
+        }
     }
+    
 })()
