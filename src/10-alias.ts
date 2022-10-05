@@ -12,5 +12,6 @@
     foo('111')
 
     // Literal types
-    type Sizes = 'S' | 'M' | 'L' | 'XL'
+    type Sizes = 'S' | 'M' | 'L' | 'XL';
+    let shirtSize: Sizes;
 })()
