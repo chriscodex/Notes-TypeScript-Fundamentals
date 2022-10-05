@@ -1,3 +1,3 @@
 (()=>{
-
+    type UserID = string | number
 })()
