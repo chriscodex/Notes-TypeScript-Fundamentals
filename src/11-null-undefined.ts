@@ -16,6 +16,8 @@
 
     // Ts deduction
     function hi(name: string | null) {
-        
+        if (name) {
+            
+        }
     }
 })()
