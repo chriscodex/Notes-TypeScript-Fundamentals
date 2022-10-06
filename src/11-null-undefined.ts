@@ -18,11 +18,14 @@
     function hi(name: string | null) {
         let hello = 'hola '
         if (name) {
-            hello += name.toLowerCase
+            hello += name.toLowerCase()
             console.log(hello)
         } else {
             hello += 'nobody'
             console.log(hello)
         }
     }
+
+    hi('Christian')
+    hi(null)
 })()
