@@ -11,5 +11,6 @@
     let myNumber: number | null = null;
     myNumber = 111;
 
-    
+    let myString: string | undefined = undefined;
+    myString = 'title'
 })()
