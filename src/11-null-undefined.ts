@@ -30,7 +30,11 @@
     hi(null)
 
     function hiV2(name: string | null) {
-
+        let hello = 'hola '
+        hello += name?.toLowerCase() || 'nobody'
+        console.log(hello)
     }
 
+    hiV2('Christian')
+    hiV2(null)
 })()
