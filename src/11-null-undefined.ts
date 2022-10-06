@@ -25,7 +25,12 @@
             console.log(hello)
         }
     }
-
+    
     hi('Christian')
     hi(null)
+
+    function hiV2(name: string | null) {
+
+    }
+
 })()
