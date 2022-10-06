@@ -17,6 +17,10 @@
     // Ts deduction
     function hi(name: string | null) {
         if (name) {
+            let hello = 'hola '
+            hello += name.toLowerCase
+            console.log(hello)
+        } else {
             
         }
     }
