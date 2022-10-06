@@ -13,4 +13,9 @@
 
     let myString: string | undefined = undefined;
     myString = 'title'
+
+    // Ts deduction
+    function hi(name: string | null) {
+        
+    }
 })()
