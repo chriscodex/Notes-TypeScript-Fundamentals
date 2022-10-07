@@ -14,5 +14,6 @@
         }
     }
 
-    const product1 = createProductToJson('P1', new Date(),)
+    const product1 = createProductToJson('P1', new Date(), 12, 'S')
+    console.log(product1)
 })();
