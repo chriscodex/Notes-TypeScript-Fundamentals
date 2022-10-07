@@ -13,4 +13,6 @@
             size
         }
     }
+
+    const product1 = createProductToJson('P1', new Date(),)
 })();
