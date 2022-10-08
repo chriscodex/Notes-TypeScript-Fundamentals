@@ -9,7 +9,7 @@
     }
 
     // Void
-    // Function that doesn't return anythin
+    // Function that doesn't return anything
     const printTotal = () : void =>{
         let rta = calcTotal([1,2,3])
         console.log(rta)
