@@ -8,6 +8,12 @@
         return total.toString();
     }
 
-    const rta = calcTotal([1,2,3])
-    console.log(rta);
+    // Void
+    // Function that doesn't return anythin
+    const printTotal = () =>{
+        let rta = calcTotal([1,2,3])
+        console.log(rta)
+    };
+
+    printTotal();
 })();
