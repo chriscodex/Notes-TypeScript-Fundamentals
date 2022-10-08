@@ -10,7 +10,7 @@
 
     // Void
     // Function that doesn't return anythin
-    const printTotal = () =>{
+    const printTotal = () : void =>{
         let rta = calcTotal([1,2,3])
         console.log(rta)
     };
