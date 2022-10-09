@@ -25,4 +25,16 @@
     type Sizes = 'S' | 'M' | 'L' | 'XL'
 
     const products: any[] = [];
+
+    const addProduct = (
+        data: {
+            title: string,
+            createdAt: Date,
+            stock: number,
+            size?: Sizes
+        }
+    ) => {
+        products.push(data)
+    }
+    
 })();
