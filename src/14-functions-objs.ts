@@ -9,10 +9,10 @@
     // Using objects
     const loginV2 = (data: {
         email: string, 
-        password: number
+        password: number,
         // Optional
         phone?: string
-    }) =>{
+    }) => {
         console.log(data.email, data.password);
     };
 
@@ -20,4 +20,6 @@
         email: 'chris@christ.co',
         password: 1234
     })
+
+    
 });
