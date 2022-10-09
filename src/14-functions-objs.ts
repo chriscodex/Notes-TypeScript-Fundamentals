@@ -20,4 +20,8 @@
         email: 'chris@christ.co',
         password: 1234
     })
+
+    // Example
+    type Sizes = 'S' | 'M' | 'L' | 'XL'
+    
 })();
