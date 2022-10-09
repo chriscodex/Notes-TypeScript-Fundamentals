@@ -24,6 +24,7 @@
     // Example
     type Sizes = 'S' | 'M' | 'L' | 'XL'
 
+    // Array created
     const products: any[] = [];
 
     const addProduct = (
@@ -36,5 +37,13 @@
     ) => {
         products.push(data)
     }
-    
+
+    addProduct({
+        title: 'P1',
+        createdAt: new Date(),
+        stock: 12,
+    })
+
+    console.log(products);
+
 })();
