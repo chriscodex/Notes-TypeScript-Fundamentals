@@ -38,12 +38,14 @@
         products.push(data)
     }
 
-    // Add a product using an object as parameter
+    // Add a product using an object as parameter without the optional property
     addProduct({
         title: 'P1',
         createdAt: new Date(),
         stock: 12,
     })
+
+    
 
     console.log(products);
 
