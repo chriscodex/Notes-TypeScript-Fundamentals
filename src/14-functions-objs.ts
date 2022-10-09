@@ -23,5 +23,6 @@
 
     // Example
     type Sizes = 'S' | 'M' | 'L' | 'XL'
-    
+
+    const products: any[] = [];
 })();
