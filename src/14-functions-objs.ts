@@ -20,6 +20,4 @@
         email: 'chris@christ.co',
         password: 1234
     })
-
-    
-});
+})();
