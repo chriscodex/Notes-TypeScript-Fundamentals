@@ -38,6 +38,7 @@
         products.push(data)
     }
 
+    // Add a product using an object as parameter
     addProduct({
         title: 'P1',
         createdAt: new Date(),
