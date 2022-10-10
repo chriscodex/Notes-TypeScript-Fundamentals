@@ -1,22 +1,18 @@
 (()=>{
     type Sizes = 'S' | 'M' | 'L' | 'XL'
+
     type Product = {
         title: string,
         createdAt: Date,
         stock: number,
-        size: Sizes
+        size?: Sizes
     }
 
     // Array created
     const products: any[] = [];
 
-    const addProduct = (
-        data: {
-            title: string,
-            createdAt: Date,
-            stock: number,
-            size?: Sizes
-        }
+    // Add product function
+    const addProduct = (data: Product
     ) => {
         products.push(data)
     }
