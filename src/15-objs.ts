@@ -20,7 +20,7 @@
     // Add a product using an object as parameter without the optional property
     addProduct({
         title: 'P1',
-        createdAt: new Date(),
+        createdAt: new Date(2020, 1, 4),
         stock: 12,
     })
 
