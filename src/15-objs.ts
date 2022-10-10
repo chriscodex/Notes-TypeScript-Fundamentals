@@ -9,7 +9,7 @@
     }
 
     // Array created
-    const products: any[] = [];
+    const products: Product[] = [];
 
     // Add product function
     const addProduct = (data: Product
