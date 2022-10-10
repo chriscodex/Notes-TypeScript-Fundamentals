@@ -45,7 +45,13 @@
         stock: 12,
     })
 
-    
+    // Add a product using and object as parameter with optional parameter
+    addProduct({
+        title: 'P2',
+        createdAt: new Date(),
+        stock: 7,
+        size: 'M'
+    })    
 
     console.log(products);
 
