@@ -9,7 +9,7 @@ export const addProduct = (data: Product
     products.push(data);
 }
 
-const totalStock = ():number => {
+export const totalStock = ():number => {
     let total = 0;
     products.forEach((item)=>{
         total += item.stock
