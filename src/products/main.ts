@@ -1,4 +1,4 @@
-import { addProduct } from "./product.service";
+import { products, addProduct } from "./product.service";
 
 // Add a product using an object as parameter without the optional property
 addProduct({
