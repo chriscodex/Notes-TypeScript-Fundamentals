@@ -1,4 +1,4 @@
-import { products, addProduct } from "./product.service";
+import { products, addProduct, totalStock } from "./product.service";
 
 // Add a product using an object as parameter without the optional property
 addProduct({
@@ -16,3 +16,4 @@ addProduct({
 })    
 
 console.log(products);
+console.log(totalStock());
