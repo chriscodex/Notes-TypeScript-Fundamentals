@@ -1,7 +1,7 @@
 import {Product} from './products.model'
 
 // Array created
-const products: Product[] = [];
+export const products: Product[] = [];
 
 // Add product function
 export const addProduct = (data: Product
