@@ -21,5 +21,8 @@
   "homepage": "https://github.com/ChrisCodeX/Notes-TypeScript#readme",
   "devDependencies": {
     "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "date-fns": "^2.29.3"
   }
 }
