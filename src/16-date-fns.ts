@@ -8,3 +8,6 @@ console.log(rta);
 
 // formatting the date
 const str = format(rta, 'yyyy/MM/dd');
+
+// show the date formated
+console.log(str);
