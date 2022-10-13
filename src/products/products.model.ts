@@ -1,7 +1,7 @@
 export type Sizes = "S" | "M" | "L" | "XL";
 
 export type Product = {
-    title: string;
+    name: string;
     createdAt: Date;
     stock: number;
     size?: Sizes;
