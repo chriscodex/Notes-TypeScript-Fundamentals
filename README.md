@@ -1,1 +1,1 @@
-# Notes-TypeScript
+# Notes-TypeScript-Fundamentals
