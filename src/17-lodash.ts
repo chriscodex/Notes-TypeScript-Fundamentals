@@ -22,3 +22,6 @@ const data = [
         role: 'customer'
     }
 ]
+
+const rta = _.groupBy(data, (item) => item.role);
+console.log(rta);
