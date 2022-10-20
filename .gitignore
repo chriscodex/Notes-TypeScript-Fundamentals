@@ -3,6 +3,7 @@
 
 ## Dev environment
 .editorconfig
+test/
 
 ### Linux ###
 *~
