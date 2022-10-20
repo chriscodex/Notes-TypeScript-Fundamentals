@@ -1,0 +1,25 @@
+{
+  "name": "notes-typescript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChrisCodeX/Notes-TypeScript.git"
+  },
+  "keywords": [
+    "typescript"
+  ],
+  "author": "Christian Espinoza",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisCodeX/Notes-TypeScript/issues"
+  },
+  "homepage": "https://github.com/ChrisCodeX/Notes-TypeScript#readme",
+  "devDependencies": {
+    "typescript": "^4.8.4"
+  }
+}
