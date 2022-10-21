@@ -1,6 +1,6 @@
 (async ()=> {
   const myCart = [];
-  const products = [];
+  //const products = [];
   const limit = 2;
 
   async function getProducts() {
@@ -8,26 +8,26 @@
       method: 'GET'
     });
     const data = await rta.json();
-    products.concat(data);
+    //products.concat(data);
   }
 
   function getTotal() {
     let total = 0;
-    for (let i = 0; i < products.length; i++) {
-      total += products[i].prize;
-    }
+    // for (let i = 0; i < products.length; i++) {
+    //   total += products[i].prize;
+    // }
     return total;
   }
 
-  function addProduct(index) {
-    if (getTotal() <= limit) {
-      myCart.push(products[index]);
-    }
-  }
+  // function addProduct(index) {
+  //   if (getTotal() <= limit) {
+  //     myCart.push(products[index]);
+  //   }
+  // }
 
   await getProducts();
-  addProduct(1);
-  addProduct(2);
+  //addProduct(1);
+  //addProduct(2);
   const total = getTotal();
   console.log(total);
   const person = {
