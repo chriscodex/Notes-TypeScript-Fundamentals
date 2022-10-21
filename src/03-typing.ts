@@ -15,5 +15,3 @@
     const myProductStock = 10
     const myProductName2 = "Product 2"
 })()
-
-
